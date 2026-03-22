@@ -1,0 +1,19 @@
+source_roots = [
+  "utility/src",
+  "core_one/src",
+  "core_two/src",
+]
+
+exact = true
+
+[[modules]]
+path = "myorg.utils"
+depends_on = []
+
+[[modules]]
+path = "myorg.core_one"
+depends_on = ["myorg.utils"]
+
+[[modules]]
+path = "myorg.core_two"
+depends_on = ["myorg.utils"]

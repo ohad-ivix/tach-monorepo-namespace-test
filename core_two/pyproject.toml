@@ -1,0 +1,4 @@
+[project]
+name = "myorg-core-two"
+version = "0.1.0"
+dependencies = ["myorg-utility"]
