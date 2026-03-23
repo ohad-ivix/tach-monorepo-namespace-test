@@ -5,6 +5,7 @@ source_roots = [
 ]
 
 exact = true
+respect_gitignore = "if_git_repo"
 
 [[modules]]
 path = "myorg.utils"
