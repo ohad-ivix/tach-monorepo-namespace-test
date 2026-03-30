@@ -13,8 +13,8 @@ depends_on = []
 
 [[modules]]
 path = "myorg.core_one"
-depends_on = ["myorg.utils"]
+depends_on = []
 
 [[modules]]
 path = "myorg.core_two"
-depends_on = ["myorg.utils"]
+depends_on = []
